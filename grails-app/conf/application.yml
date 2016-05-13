@@ -46,9 +46,11 @@ environments:
                 defaultTransactionIsolation: 2 # TRANSACTION_READ_COMMITTED
 
 ---
+server:
+    port: 9001
 ---
 grails:
-    profile: angular
+    profile: rest-api
     codegen:
         defaultPackage: anchormodeler
     spring:
